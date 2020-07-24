@@ -1,0 +1,26 @@
+{
+  "name": "apicrud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r dotenv/config --experimental-modules app.js"
+  },
+  "author": {
+    "name": "Cícero Rodrigues",
+    "email": "cicerorod@gmail.com.br"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cicerorod/igti-fullstack-mod4-crud-mongodb.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.19",
+    "dotenv": "^8.2.0"
+  },
+  "type": "module"
+}
